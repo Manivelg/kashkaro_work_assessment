@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'kash_b';
+    src: url('./fonts/kash_b.ttf') format("truetype");
+  }
+  
+  @font-face {
+    font-family: 'kash_bl';
+    src: url('./fonts/kash_bl.ttf') format("truetype");
+  }
+  
+  @font-face {
+    font-family: 'kash_r';
+    src: url('./fonts/kash_r.ttf') format("truetype");
+  }
+  
+  @font-face {
+    font-family: 'kash_m';
+    src: url('./fonts/kash_m.ttf') format("truetype");
+  }
+  
+  @font-face {
+    font-family: 'kash_l';
+    src: url('./fonts/kash_l.ttf') format("truetype");
+  }
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    -webkit-text-size-adjust: none;
+    touch-action: manipulation;
+    overflow-x: hidden;
+  }
+  
+  body::-webkit-scrollbar,#main_section::-webkit-scrollbar,.coupon_view::-webkit-scrollbar {
+    width: none;
+  }
+  
+  a:active,
+  a:focus {
+    text-decoration: none;
+  }
+  
+  body::-webkit-scrollbar-track,#main_section::-webkit-scrollbar-track,.coupon_view::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+  
+  body::-webkit-scrollbar-thumb,
+  .iti__country-list::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+    border-radius: 0 !important;
+  }
+  
+  html::-webkit-scrollbar,#main_section::-webkit-scrollbar,
+  .iti__country-list::-webkit-scrollbar,.coupon_view::-webkit-scrollbar,.web_swipe::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body::-webkit-scrollbar,#main_section::-webkit-scrollbar {
+    display: none;
+  }
+
+  p {
+    margin: 0;
+  }
+  body {
+    margin: var(--margin);
+    font: 15px/25px var(--kash_r);
+    background-color: #fff;
+    --bgcolor: #010101;
+    --bluecolor: #2D054D;
+    --buttoncolor: #41096D;
+    --seccolor: #0F0F0F;
+    --gray: #8b8b8b;
+    --color: #323232;
+    --white: #fff;
+    --error: #d91c1c;
+    --form_para: #626262;
+    --button_color: #E20734;
+    --coins: #FFA123;
+    --faq: #171717;
+
+    --center: center;
+    --left: left;
+    --margin: 0;
+    --padding: 30px 0;
+    --top_padd: 40px 0 0;
+    --kash_b: "kash_b", san-serif;
+    --kash_l: "kash_l", san-serif;
+    --kash_bl: "kash_bl", san-serif;
+    --kash_m: "kash_m", san-serif;
+    --kash_r: "kash_r", san-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+  
+  #brands {
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  @media only screen and (max-width: 500px) {
+    #brands {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0;
+    }
+    .brand_view{
+    width: 35%;
+    }
+    .head_div {
+        width: 85%;
+        margin: 10px auto;
+    }
+    .coupon_pic {
+        width: 90px;
+      }
+      .coupon_list {
+        height: 80px;
+      }
+      .coupons {
+        top: 47px;
+      }
+      .trend {
+    width: 85%;
+    margin: 0px auto;
+      }
+      .coupon_view {
+        min-height: 180px;
+      }
+      .brand_logos {
+    width: 90%;
+    margin: 0px auto;
+      }
+  }
+
+  @media only screen and (max-width: 380px) {
+    .block_span {
+        display: inline;
+      }
+      .brand_view {
+        width: 42%;
+      }
+      .coupon_one {
+        width: 45%;
+      }
+      .mob {
+        width: 50%;
+      }
+    .web_one {
+width: 60%;
+  }
+}
